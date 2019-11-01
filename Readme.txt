@@ -14,4 +14,15 @@ Advanced stats: Wins Share, PER, VORP
 
 This will be the first step into discovering more about predicting a players performance and impact
 
-Will do a classification for player's role, and salary prediction
+Will do a classification for player's role, and salary prediction.
+
+Considerations: Per 36 averages for pay.
+
+Clasify players by All NBA (Max Contract), all starish, starter, bench, fringe
+
+(I can keep adding layers)- but classification determines pay grade
+
+
+Considerations: 
+Per 36 averages for pay.
+Playoff performance
