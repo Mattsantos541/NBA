@@ -17,7 +17,7 @@ from statsmodels.formula.api import ols
 #OLS object to analyze features
 
 def stats_test(y_train,X_train):
-    t_test = stats.ttest_ind(y_train,X_train.sqft)
+    t_test = stats.ttest_ind(y_train,X_train)
     ols_model = sm.OLS(y_train,X_train)
     fit = ols_model.fit()
     return t_test, fit.summary()
